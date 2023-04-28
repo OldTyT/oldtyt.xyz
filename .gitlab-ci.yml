@@ -1,0 +1,44 @@
+---
+image:
+  name: registry.gitlab.com/pages/hugo:0.120.4
+  entrypoint: [""]
+
+variables:
+  GIT_DEPTH: 0
+  GIT_STRATEGY: clone
+  GIT_SUBMODULE_STRATEGY: recursive
+
+pages:
+  stage: "deploy"
+  script:
+    - apk add --no-cache brotli
+    - hugo --gc --minify --destination=public --baseURL=$BASEURL  --environment $ENV
+    - find public -type f -regex '.*\.\(css\|html\|js\|txt\|xml\)$' -exec gzip -f -k {} \;
+    - find public -type f -regex '.*\.\(css\|html\|js\|txt\|xml\)$' -exec brotli -f -k {} \;
+  environment:
+    name: "Pages ${PAGES_PREFIX}. Env - ${ENV}"
+    url: "https://${DOMAIN}/${PAGES_PREFIX}"
+  pages:
+    path_prefix: "$PAGES_PREFIX"
+  artifacts:
+    paths:
+    - public
+  variables:
+    BASEURL: "https://${DOMAIN}/${PAGES_PREFIX}"
+    PAGES_PREFIX: ""
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      when: manual
+      variables:
+        DOMAIN: oldtyt.xyz
+        ENV: production
+    - if: $CI_COMMIT_BRANCH == "development"
+      variables:
+        DOMAIN: dev.oldtyt.xyz
+        ENV: development
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      when: manual
+      variables:
+        DOMAIN: dev.oldtyt.xyz
+        ENV: development
+        PAGES_PREFIX: 'mr$CI_MERGE_REQUEST_IID'
