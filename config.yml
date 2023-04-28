@@ -1,5 +1,5 @@
 baseURL: "https://oldtyt.xyz/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: PaperMod
+title: OldTyT
 paginate: 5
 theme: hugo-papermod
 
@@ -130,7 +130,7 @@ params:
 
     profileMode:
         enabled: false
-        title: PaperMod
+        title: OldTyT
         imageUrl: "#"
         imageTitle: my image
         # imageWidth: 120
@@ -142,7 +142,7 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "PaperMod"
+        Title: "OldTyT"
         Content: >
             Welcome to demo of hugo's theme PaperMod.
 
