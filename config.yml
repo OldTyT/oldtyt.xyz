@@ -1,5 +1,4 @@
-baseURL: "https://oldtyt.xyz/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: PaperMod
+title: OldTyT
 paginate: 5
 theme: hugo-papermod
 
@@ -10,98 +9,71 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-# googleAnalytics: UA-123-45
+# googleAnalytics: UA-123-45  # Deprecated Universal Analytics
 
 minify:
     disableXML: true
-    # minifyOutput: true
+    minifyOutput: true
 
 languages:
     en:
-        languageName: "English"
+        languageName: "English 🇺🇸"
         weight: 1
         taxonomies:
           category: categories
           tag: tags
           series: series
-        profileMode:
-            enabled: true
-            title: OldTyT
-            imageUrl: "https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png"
-            imageTitle: OldTyT
-            subtitle: "🌋 Work hard | 🎮 Play hard"
-        # menu:
-        #     main:
-        #         - name: Archive
-        #           url: archives
-        #           weight: 5
-        #         - name: Search
-        #           url: search/
-        #           weight: 10
-        #         - name: Tags
-        #           url: tags/
-        #           weight: 10
-        #         - name: WiKi
-        #           url: https://github.com/adityatelange/hugo-PaperMod/wiki/
-        #         - name: Discord
-        #           url: https://discord.gg/ahpmTvhVmp
-
-    # fr:
-    #     languageName: ":fr:"
-    #     languageAltTitle: French
-    #     weight: 2
-    #     title: PaperModL2
-    #     taxonomies:
-    #       category: FRcategories
-    #       tag: FRtags
-    #       series: FRseries
-    #     profileMode:
-    #         enabled: true
-    #         title: PaperMod
-    #         imageUrl: "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f317.svg"
-    #         imageTitle: ProfileMode image
-    #         # imageWidth: 120
-    #         # imageHeight: 120
-    #         subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-    #         buttons:
-    #             - name: Blog
-    #               url: posts
-    #             - name: Profile Mode
-    #               url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
-    #     menu:
-    #         main:
-    #             - name: Archive
-    #               url: archives/
-    #               weight: 5
-    #             - name: FRTags
-    #               url: frtags
-    #               weight: 10
-    #             - name: FRCategories
-    #               url: frcategories
-    #               weight: 10
-    #             - name: FRSeries
-    #               url: frseries
-    #               weight: 10
-    #             - name: NullLink
-    #               url: "#"
-
-    # fa:
-    #     languagedirection: rtl
-    #     weight: 3
-    #     title: PaperMod RTL
-    #     homeInfoParams:
-    #         Title: "Hi there \U0001F44B"
-    #         Content: Welcome to RTL layout
-    #     taxonomies:
-    #       category: FAcategories
-    #       tag: FAtags
-    #       series: FAseries
-    #     menu:
-    #         main:
-    #             - name: FATags
-    #               url: fatags
-    #               weight: 10
-
+        params:
+          languageAltTitle: English
+          profileMode:
+              enabled: true
+              title: OldTyT
+              imageUrl: "https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png"
+              imageTitle: OldTyT
+              subtitle: "🌋 Work hard | 🎮 Play hard"
+        menu:
+            main:
+                - name: CV
+                  url: cv
+                  weight: 3
+                - name: Posts
+                  url: posts
+                  weight: 6
+                - name: Search
+                  url: search
+                  weight: 8
+                - name: Donate
+                  url: donate
+                  weight: 9
+    ru:
+        languageName: "Russian 🇷🇺"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        params:
+          languageAltTitle: Russian
+          profileMode:
+              enabled: true
+              title: OldTyT
+              imageUrl: "https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png"
+              imageTitle: OldTyT
+              subtitle: "🌋 Work hard | 🎮 Play hard"
+        menu:
+            main:
+                - name: Резюме
+                  url: cv
+                  weight: 3
+                - name: Посты
+                  url: posts
+                  weight: 6
+                - name: Поиск
+                  url: search
+                  weight: 8
+                - name: Донат
+                  url: donate
+                  weight: 9
 outputs:
     home:
         - HTML
@@ -109,7 +81,8 @@ outputs:
         - JSON
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    icon: "https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png"
+    #env: production
     description: "Personal website OldTyT"
     author: OldTyT
     # author: ["Me", "You"] # multiple authors
@@ -118,7 +91,7 @@ params:
     # disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: true
-    # disableSpecial1stPost: true
+    disableSpecial1stPost: true
     displayFullLangName: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
@@ -129,10 +102,10 @@ params:
     images: ["papermod-cover.png"]
 
     profileMode:
-        enabled: false
-        title: PaperMod
+        enabled: true
+        title: OldTyT
         imageUrl: "#"
-        imageTitle: my image
+        imageTitle: My avatar
         # imageWidth: 120
         # imageHeight: 120
         buttons:
@@ -141,64 +114,34 @@ params:
             - name: Tags
               url: tags
 
-    homeInfoParams:
-        Title: "PaperMod"
-        Content: >
-            Welcome to demo of hugo's theme PaperMod.
-
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-
-            - Do give a 🌟 on Github !
-
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
-
     socialIcons:
         - name: github
           url: "https://github.com/OldTyT"
-        #- name: KoFi
-        #  url: "https://ko-fi.com/adityatelange"
         - name: gitlab
           url: "https://gitlab.com/OldTyT"
         - name: telegram
           url: "https://arasaka_2077.t.me"
-        #- name: Rss
-        #  url: "index.xml"
+        - name: "telegram chat"
+          url: "https://t.me/oldi_na_meste"
 
     editPost:
-        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+        URL: "https://gitlab.com/OldTyT/oldtyt.xyz/blob/master/content"
+        Text: "Suggest Changes"
+        appendFilePath: true
 
-    # label:
-    #     text: "Home"
-    #     icon: icon.png
-    #     iconHeight: 35
-
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
+    analytics:
+        google:
+            SiteVerificationTag: "G-2Q1PY6PFPY"
 
     assets:
         disableHLJS: true
-    #     favicon: "<link / abs url>"
-    #     favicon16x16: "<link / abs url>"
-    #     favicon32x32: "<link / abs url>"
-    #     apple_touch_icon: "<link / abs url>"
-    #     safari_pinned_tab: "<link / abs url>"
+        favicon: "https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png"
+        apple_touch_icon: "https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png"
+        safari_pinned_tab: "https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png"
 
-    # cover:
-    #     hidden: true # hide everywhere but not in structured data
-    #     hiddenInList: true # hide on list pages and home
-    #     hiddenInSingle: true # hide on single page
-
-    # fuseOpts:
-    #     isCaseSensitive: false
-    #     shouldSort: true
-    #     location: 0
-    #     distance: 1000
-    #     threshold: 0.4
-    #     minMatchCharLength: 0
-    #     keys: ["title", "permalink", "summary", "content"]
+    cover:
+      linkFullImages: true
+      responsiveImages: true
 
 markup:
     goldmark:
