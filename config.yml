@@ -30,17 +30,17 @@ languages:
             imageUrl: "https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png"
             imageTitle: OldTyT
             subtitle: "🌋 Work hard | 🎮 Play hard"
-        # menu:
-        #     main:
-        #         - name: Archive
-        #           url: archives
-        #           weight: 5
-        #         - name: Search
-        #           url: search/
-        #           weight: 10
-        #         - name: Tags
-        #           url: tags/
-        #           weight: 10
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
         #         - name: WiKi
         #           url: https://github.com/adityatelange/hugo-PaperMod/wiki/
         #         - name: Discord
@@ -129,7 +129,7 @@ params:
     images: ["papermod-cover.png"]
 
     profileMode:
-        enabled: false
+        enabled: true
         title: OldTyT
         imageUrl: "#"
         imageTitle: my image
