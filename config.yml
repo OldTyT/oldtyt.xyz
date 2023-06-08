@@ -35,6 +35,9 @@ languages:
                 - name: Archive
                   url: archives
                   weight: 5
+                - name: Posts
+                  url: posts
+                  weight: 6
                 - name: Search
                   url: search/
                   weight: 10
