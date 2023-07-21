@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Series on OldTyT</title>
+    <link>https://oldtyt.xyz/series/</link>
+    <description>Recent content in Series on OldTyT</description>
+    <image>
+      <title>OldTyT</title>
+      <url>https://oldtyt.xyz/papermod-cover.png</url>
+      <link>https://oldtyt.xyz/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://oldtyt.xyz/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kubernetes</title>
+      <link>https://oldtyt.xyz/series/kubernetes/</link>
+      <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://oldtyt.xyz/series/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First post</title>
+      <link>https://oldtyt.xyz/series/first-post/</link>
+      <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://oldtyt.xyz/series/first-post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

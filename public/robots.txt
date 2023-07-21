@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://oldtyt.xyz/sitemap.xml
