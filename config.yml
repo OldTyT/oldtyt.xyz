@@ -40,7 +40,10 @@ languages:
                   weight: 6
                 - name: Search
                   url: search/
-                  weight: 10
+                  weight: 8
+                - name: Donate
+                  url: donate/
+                  weight: 9
                 - name: Tags
                   url: tags/
                   weight: 10
