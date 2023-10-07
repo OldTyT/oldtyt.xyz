@@ -3,7 +3,7 @@ author: "OldTyT"
 title: "How I launched minecraft in kubernetes"
 date: "2023-06-05"
 description: "Minecraft in kubernetes."
-tags: ["kubernetes", "minecraft", "skills"]
+tags: ["kubernetes", "minecraft", "skills", "files", "node", "problem", "solution", "traefik", "cron", "task", "data"]
 categories: ["kubernetes", "syntax"]
 series: ["kubernetes"]
 aliases: ["minecraft_in_kubernetes"]
