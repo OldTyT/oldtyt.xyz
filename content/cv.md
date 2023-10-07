@@ -3,7 +3,7 @@ author: "OldTyT"
 title: "Resume"
 ---
 
-Привет, это мое резюме
+Hi, this is my resume
 
 ## Work experience
 
