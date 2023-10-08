@@ -18,7 +18,7 @@ Within the framework of this article, the most frequent antipatterns in the desi
 
 ## Using a redundant base image
 
-One of the common antipatterns when using Docker is the use of a redundant base image. Some basic images contain a full-fledged operating system, which can lead to unnecessary resource consumption and an increase in the size of the container.
+One of the common antipatterns when using Docker is the use of a redundant base image.
 
 ```Dockerfile
 # Bad
