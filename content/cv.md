@@ -55,6 +55,8 @@ Support Engineer / DevOps Engineer
 * Setting up automated testing to reduce human errors
 * Setting up automated deployment of both code and infrastructure changes
 
+---
+
 ### NDA
 
 #### Date of employment

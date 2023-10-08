@@ -35,21 +35,15 @@ languages:
                 - name: CV
                   url: cv
                   weight: 3
-                - name: Archive
-                  url: archives
-                  weight: 5
                 - name: Posts
                   url: posts
                   weight: 6
                 - name: Search
-                  url: search/
+                  url: search
                   weight: 8
                 - name: Donate
-                  url: donate/
+                  url: donate
                   weight: 9
-                - name: Tags
-                  url: tags/
-                  weight: 10
     ru:
         languageName: "Russian 🇷🇺"
         weight: 1
@@ -68,21 +62,15 @@ languages:
                 - name: Резюме
                   url: cv
                   weight: 3
-                - name: Архив
-                  url: archives
-                  weight: 5
                 - name: Посты
                   url: posts
                   weight: 6
                 - name: Поиск
-                  url: search/
+                  url: search
                   weight: 8
                 - name: Донат
-                  url: donate/
+                  url: donate
                   weight: 9
-                - name: Тэги
-                  url: tags/
-                  weight: 10
 outputs:
     home:
         - HTML

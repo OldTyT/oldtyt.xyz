@@ -3,8 +3,8 @@ author: "OldTyT"
 title: "Как я запускал minecraft в kubernetes"
 date: "2023-10-07"
 description: "Minecraft в kubernetes."
-tags: ["kubernetes", "майнкрафт", "опыт", "файл", "нода", "проблема", "решение", "traefik", "cron", "данные", "задача"]
-categories: ["kubernetes", "syntax"]
+tags: ["kubernetes", "майнкрафт", "опыт", "файл", "нода", "проблема", "решение", "traefik", "cron", "данные", "задача", "DevOps"]
+categories: ["kubernetes", "minecraft"]
 series: ["kubernetes"]
 aliases: ["minecraft_in_kubernetes"]
 ShowToc: true
