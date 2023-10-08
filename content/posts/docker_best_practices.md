@@ -9,7 +9,6 @@ tags: ["docker", "container", "dockerfile", "DevOps", "BestPractices"]
 categories: ["BestPractices", "docker"]
 series: ["docker"]
 aliases: ["docker_best_practices"]
-url: "/ru/posts/docker_best_practices/"
 ShowToc: true
 TocOpen: true
 weight: 1
