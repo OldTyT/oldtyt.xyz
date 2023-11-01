@@ -117,6 +117,8 @@ params:
           url: "https://gitlab.com/OldTyT"
         - name: telegram
           url: "https://arasaka_2077.t.me"
+        - name: "telegram chat"
+          url: "https://t.me/oldi_na_meste"
 
     editPost:
         URL: "https://github.com/OldTyT/oldtyt.xyz/blob/master/content"
