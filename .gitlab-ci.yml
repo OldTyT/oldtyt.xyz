@@ -1,15 +1,22 @@
-# The Docker image that will be used to build your app
-image: ghcr.io/oldtyt/hugo-docker
-# Functions that should be executed before the build script is run
-before_script: []
-pages:
-  script:
-    - /entrypoint.sh
+---
+image:
+  name: ghcr.io/oldtyt/hugo-docker
+  entrypoint: [""]
+
+variables:
+  PUBLIC_URL: /
+
+stages:
+  - deploy
+
+prod:
+  stage: "deploy"
+  script: [/entrypoint.sh]
+  environment:
+    name: production
+    url: "https://oldtyt.xyz"
   artifacts:
     paths:
-      # The folder that contains the files to be exposed at the Page URL
-      - public
-  rules:
-    # This ensures that only pushes to the default branch will trigger
-    # a pages deploy
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+    - public
+  only:
+    - master
