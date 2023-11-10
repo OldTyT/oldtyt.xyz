@@ -6,10 +6,7 @@ image:
 variables:
   PUBLIC_URL: /
 
-stages:
-  - deploy
-
-prod:
+pages:
   stage: "deploy"
   script: [/entrypoint.sh]
   environment:
