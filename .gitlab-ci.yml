@@ -1,0 +1,22 @@
+---
+image:
+  name: ghcr.io/oldtyt/hugo-docker
+  entrypoint: [""]
+
+variables:
+  PUBLIC_URL: /
+
+stages:
+  - deploy
+
+prod:
+  stage: "deploy"
+  script: [/entrypoint.sh]
+  environment:
+    name: production
+    url: "https://oldtyt.xyz"
+  artifacts:
+    paths:
+    - public
+  only:
+    - master
