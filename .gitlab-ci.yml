@@ -4,7 +4,7 @@ image:
   entrypoint: [""]
 
 variables:
-  PUBLIC_URL: /
+  BASEURL: https://oldtyt.xyz
 
 pages:
   stage: "deploy"
