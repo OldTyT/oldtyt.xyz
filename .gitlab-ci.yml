@@ -11,7 +11,7 @@ pages:
   script: [/entrypoint.sh]
   environment:
     name: production
-    url: "https://oldtyt.xyz"
+    url: https://oldtyt.xyz
   artifacts:
     paths:
     - public
