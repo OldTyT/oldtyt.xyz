@@ -16,6 +16,9 @@ If you have the means and desire to support my project, here are my donation wal
 |Cryptocurrency | wallet addres|
 |---|---|
 |`TON`|`EQBh4OZBHAr9EHa9OsOPFSb5nmx7UoVxLPvZHlTaExLvtunX`|
+|`BTC`|`1CFr6Q6fmFR34otJqP89a9akFPFFpGCqTB`|
+|`USDT TRC20`|`TRoNi29kHjzXM1iVkQfYeqM259z1JrzLSw`|
+
 
 Every donation, big or small, will be appreciated and will help me continue developing and improving content for you, my wonderful readers.
 

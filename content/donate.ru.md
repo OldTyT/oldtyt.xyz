@@ -17,6 +17,8 @@ url: "/ru/donate"
 | Криптовалюта | Адрес кошелька |
 |---|---|
 |`TON`|`EQBh4OZBHAr9EHa9OsOPFSb5nmx7UoVxLPvZHlTaExLvtunX`|
+|`BTC`|`1CFr6Q6fmFR34otJqP89a9akFPFFpGCqTB`|
+|`USDT TRC20`|`TRoNi29kHjzXM1iVkQfYeqM259z1JrzLSw`|
 
 Каждое пожертвование, будь то большое или маленькое, будет оценено и поможет мне продолжать развивать и улучшать контент для вас, моих замечательных читателей.
 

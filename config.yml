@@ -24,12 +24,14 @@ languages:
           category: categories
           tag: tags
           series: series
-        profileMode:
-            enabled: true
-            title: OldTyT
-            imageUrl: "https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png"
-            imageTitle: OldTyT
-            subtitle: "🌋 Work hard | 🎮 Play hard"
+        params:
+          languageAltTitle: English
+          profileMode:
+              enabled: true
+              title: OldTyT
+              imageUrl: "https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png"
+              imageTitle: OldTyT
+              subtitle: "🌋 Work hard | 🎮 Play hard"
         menu:
             main:
                 - name: CV
@@ -51,12 +53,14 @@ languages:
           category: categories
           tag: tags
           series: series
-        profileMode:
-            enabled: true
-            title: OldTyT
-            imageUrl: "https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png"
-            imageTitle: OldTyT
-            subtitle: "🌋 Work hard | 🎮 Play hard"
+        params:
+          languageAltTitle: Russian
+          profileMode:
+              enabled: true
+              title: OldTyT
+              imageUrl: "https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png"
+              imageTitle: OldTyT
+              subtitle: "🌋 Work hard | 🎮 Play hard"
         menu:
             main:
                 - name: Резюме
