@@ -82,6 +82,7 @@ outputs:
         - JSON
 
 params:
+    icon: "https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png"
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Personal website OldTyT"
     author: OldTyT
@@ -135,9 +136,9 @@ params:
 
     assets:
         disableHLJS: true
-        favicon: "../icon.png"
-        apple_touch_icon: "../icon.png"
-        safari_pinned_tab: "../icon.png"
+        favicon: "https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png"
+        apple_touch_icon: "https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png"
+        safari_pinned_tab: "https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png"
 
     cover:
       linkFullImages: true
