@@ -27,7 +27,7 @@ Software Engineer
 
 #### Responsibilities
 
-I have been supporting the observability of the platform. My responsibilities included:
+I have been creating and maintaining the observability platform. My responsibilities included:
 - Building rpm packages
 - By writing the jenkins job
 - Writing exporters for opensearch
