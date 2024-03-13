@@ -3,7 +3,7 @@ author: "OldTyT"
 title: "Docker для самых маленьких"
 date: "2023-10-08"
 description: "Docker для самых маленьких"
-tags: ["docker", "контейнер", "разработка", "приложение", "dockerfile", "основа", "база", "DevOps", "docker"]
+tags: ["docker", "контейнер", "разработка", "приложение", "dockerfile", "основа", "база", "DevOps", "docker", "devops", "base"]
 categories: ["docker"]
 series: ["docker"]
 aliases: ["docker_for_the_youngest"]

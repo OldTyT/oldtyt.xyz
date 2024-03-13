@@ -2,7 +2,7 @@
 author: "OldTyT"
 title: "База DevOps"
 date: "2024-03-13"
-description: "Docker best practices"
+description: "База DevOps"
 tags: ["devops", "base"]
 categories: ["devops", "base"]
 series: ["devops_base"]
@@ -13,22 +13,21 @@ TocOpen: true
 weight: 1
 ---
 
-Данная статья предназначено для тех, кто только хочет вкатиться в DevOps. Она поможет понять некоторые нюансы.
+Данная статья предназначена для тех, кто только хочет вкатиться в DevOps. Она поможет понять некоторые нюансы.
 
 # Статья находится в активной разработке
 
-# База
-
+1. База
 * [FHS](https://ru.wikipedia.org/wiki/FHS)
-* Знать и уметь рассказать за [top](https://1cloud.ru/help/security/prosmotr-i-upravlenie-protsessami-linux-s-pomoshhyu-top) и [htop](https://linux-bash.ru/menusistem/79-htop.html)(по меньшей мере)
-* [cron](https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-ru) (статья не полная, еще можно задать cron через /etc/cron*)
-* Уметь в bash(написание каких-то простых скриптов, циклов)
+* [bash](https://ru.wikipedia.org/wiki/Bash)
+* Знать и уметь в [top](https://1cloud.ru/help/security/prosmotr-i-upravlenie-protsessami-linux-s-pomoshhyu-top) и [htop](https://linux-bash.ru/menusistem/79-htop.html)
+* [cron](/ru/posts/devops_cron/)
 * Уметь в systemd(написание untit'oв, просмотр логов в journalctl)
 * Уметь в [траблшутинг](https://youtu.be/9A3QtGMuqvw)
-* Пощупать ансибл и погонять сборки локально в [molecule](https://gitlab.com/DevBoxOps/ansible-molecule)(сразу скажу, там заложена ошибка специально, когда сделаешь molecule test ты это увидешь)
+* Пощупать ансибл и погонять сборки локально в [molecule](https://gitlab.com/DevBoxOps/ansible-molecule)(заложена ошибка специально, когда выполнишь команду `molecule test`, она станет явной)
 
 2. Продвинутый уровень
-* Docker(что это? Зачем? Какие плюсы? Как оптимизировать сборку? Что такое overlay fs? Как работают слои?). Я попытался обяснить про него [тут](https://oldtyt.xyz/ru/posts/docker_for_the_youngest/) и [тут](https://oldtyt.xyz/ru/posts/docker_best_practices/)
+* Docker. Почитать можно [тут](/ru/posts/docker_for_the_youngest/) и [тут](/ru/posts/docker_best_practices/)
 * CI/CD
 * Prometheus
 * Grafana
@@ -40,4 +39,3 @@ weight: 1
 * GO
 * OpenSearch / ELK
 * Написание SQL запросов
-...

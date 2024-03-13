@@ -4,7 +4,7 @@ title: "Лучшие практики при использовании Docker"
 date: "2023-10-08"
 description: "Docker best practices"
 tags: ["docker", "container", "dockerfile", "DevOps", "BestPractices"]
-categories: ["BestPractices", "docker"]
+categories: ["BestPractices", "docker", "devops"]
 series: ["docker"]
 aliases: ["docker_best_practices"]
 url: "/ru/posts/docker_best_practices/"
