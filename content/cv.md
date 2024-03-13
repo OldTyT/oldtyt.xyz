@@ -7,6 +7,37 @@ Hi, this is my resume
 
 ## Work experience
 
+### NDA
+
+#### Date of employment
+
+10/2023
+
+#### Date of dismissal
+
+I am currently working
+
+#### The company's field of activity
+
+NDA
+
+#### Current position
+
+Software Engineer
+
+#### Responsibilities
+
+I have been supporting the observability of the platform. My responsibilities included:
+- Building rpm packages
+- By writing the jenkins job
+- Writing exporters for opensearch
+- Provided high availability of internal services
+- Deployed various services (Sentry, Zipkin...) and described their installation (Configuration as Code)
+- Performed the implementation of exporters in k8s
+- Designed and developed Prometheus exporters on golang
+
+---
+
 ### OSSHelp
 
 #### Date of employment
@@ -54,27 +85,3 @@ Support Engineer / DevOps Engineer
 * Configuring CI/CD integration with popular messengers
 * Setting up automated testing to reduce human errors
 * Setting up automated deployment of both code and infrastructure changes
-
----
-
-### NDA
-
-#### Date of employment
-
-10/2023
-
-#### Date of dismissal
-
-I am currently working
-
-#### The company's field of activity
-
-NDA
-
-#### Current position
-
-Software Engineer
-
-#### Responsibilities
-
-...
