@@ -13,7 +13,7 @@ I accept donations in cryptocurrency, which makes the process fast, convenient, 
 
 If you have the means and desire to support my project, here are my donation wallets:
 
-|Cryptocurrency | wallet addres|
+|Cryptocurrency | wallet address|
 |---|---|
 |`TON`|`EQBh4OZBHAr9EHa9OsOPFSb5nmx7UoVxLPvZHlTaExLvtunX`|
 |`BTC`|`1CFr6Q6fmFR34otJqP89a9akFPFFpGCqTB`|

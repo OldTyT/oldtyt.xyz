@@ -1,0 +1,24 @@
+{
+  "version": "0.2",
+  "cache": {
+      "useCache": false
+  },
+  "dictionaryDefinitions": [
+    {
+        "name": "ignore words",
+        "path": "./cspell-ignore-words",
+        "description": "Words to be Ignored",
+        "addWords": true,
+        "noSuggest": true
+    }
+  ],
+  "ignorePaths": [
+      ".git",
+      ".gitattributes",
+      ".gitignore",
+      "themes/"
+  ],
+  "name": "Check all files.",
+  "import": ["@cspell/dict-ru_ru/cspell-ext.json"],
+  "dictionaries": ["ignore words", "ru-ru", "en_us"]
+}
