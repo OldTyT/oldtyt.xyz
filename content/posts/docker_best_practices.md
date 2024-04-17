@@ -41,7 +41,7 @@ ubuntu       latest    3565a89d9e81   13 days ago   77.8MB
 
 ## Lots of instructions
 
-Due to the peculiarities of docker's work, each executed instruction performs a "snapshot" of the state of the container's file system at the moment, so you should reduce the number of these very instructions, an example of a bad implementation of Dockerfil:
+Due to the peculiarities of docker's work, each executed instruction performs a "snapshot" of the state of the container's file system at the moment, so you should reduce the number of these very instructions, an example of a bad implementation of Dockerfile:
 
 ```Dockerfile
 # Bad
@@ -72,7 +72,7 @@ It is often possible to observe such a construction in Dockerfile:
 ```Dockerfile
 # Bad
 FROM alpine
-RUN apk update && \ 
+RUN apk update && \
     apk add curl wget nginx
 ```
 
