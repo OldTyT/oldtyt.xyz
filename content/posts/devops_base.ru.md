@@ -24,7 +24,7 @@ weight: 1
 * [cron](/ru/posts/devops_cron/)
 * Уметь в systemd(написание untit'oв, просмотр логов в journalctl)
 * Уметь в [траблшутинг](https://youtu.be/9A3QtGMuqvw)
-* Пощупать ансибл и погонять сборки локально в [molecule](https://gitlab.com/DevBoxOps/ansible-molecule)(заложена ошибка специально, когда выполнишь команду `molecule test`, она станет явной)
+* Пощупать ansible и погонять сборки локально в [molecule](https://gitlab.com/DevBoxOps/ansible-molecule)(заложена ошибка специально, когда выполнишь команду `molecule test`, она станет явной)
 
 2. Продвинутый уровень
 * Docker. Почитать можно [тут](/ru/posts/docker_for_the_youngest/) и [тут](/ru/posts/docker_best_practices/)
