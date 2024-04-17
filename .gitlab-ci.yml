@@ -15,6 +15,12 @@ yamllint:
   script:
     - yamllint .
 
+# markdownlint:
+#   stage: linting
+#   image: registry.gitlab.com/pipeline-components/markdownlint:latest
+#   script:
+#     - mdl --style all --warnings .
+
 spell_check:
   stage: spelling_check
   image: ghcr.io/oldtyt/docker-cspell
@@ -28,6 +34,7 @@ pages:
     entrypoint: [""]
   script:
     - apk add --no-cache brotli
+    - echo "BASEURL=$BASEURL, ENV=$ENV"
     - hugo --gc --minify --destination=public --baseURL=$BASEURL  --environment $ENV
     - find public -type f -regex '.*\.\(css\|html\|js\|txt\|xml\)$' -exec gzip -f -k {} \;
     - find public -type f -regex '.*\.\(css\|html\|js\|txt\|xml\)$' -exec brotli -f -k {} \;
@@ -45,8 +52,9 @@ pages:
   needs:
     - yamllint
     - spell_check
+    # - markdownlint
   rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_COMMIT_BRANCH == "master"
       when: manual
       variables:
         DOMAIN: oldtyt.xyz
