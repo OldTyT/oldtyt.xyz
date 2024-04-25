@@ -47,6 +47,7 @@ pages:
       - public
   variables:
     BASEURL: "https://oldtyt.xyz"
+    ENV: production
   needs:
     - yamllint
     - spell_check
