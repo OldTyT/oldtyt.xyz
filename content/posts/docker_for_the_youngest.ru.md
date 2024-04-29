@@ -1,9 +1,9 @@
 ---
 author: "OldTyT"
-title: "Docker для самых маленьких"
-date: "2023-10-08"
-description: "Docker для самых маленьких"
-tags: ["docker", "контейнер", "разработка", "приложение", "dockerfile", "основа", "база", "DevOps", "docker", "devops", "base"]
+title: "Docker для чайников"
+date: "2024-04-29"
+description: "Docker для чайников"
+tags: ["docker", "контейнер", "разработка", "приложение", "dockerfile", "основа", "база", "DevOps", "docker", "devops", "base", "для_чайников"]
 categories: ["docker"]
 series: ["docker"]
 aliases: ["docker_for_the_youngest"]
@@ -12,6 +12,8 @@ TocOpen: true
 weight: 1
 url: "/ru/posts/docker_for_the_youngest/"
 ---
+
+# Docker для самых маленьких
 
 Для закрепления материала, рекомендуется выполнить команды указанные в статье
 

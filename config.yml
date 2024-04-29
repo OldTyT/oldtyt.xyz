@@ -104,12 +104,12 @@ params:
       - name: Tags
         url: tags
   socialIcons:
+    - name: telegram
+      url: 'https://t.me/oldi_na_meste'
     - name: github
       url: 'https://github.com/OldTyT'
     - name: gitlab
       url: 'https://gitlab.com/OldTyT'
-    - name: telegram
-      url: 'https://t.me/oldi_na_meste'
   editPost:
     URL: 'https://gitlab.com/OldTyT/oldtyt.xyz/blob/master/content'
     Text: Suggest Changes

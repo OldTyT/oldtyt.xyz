@@ -1,7 +1,7 @@
 ---
 author: "OldTyT"
-title: "Лучшие практики при использовании Docker"
-date: "2023-10-08"
+title: "Docker best practices"
+date: "2024-04-29"
 description: "Docker best practices"
 tags: ["docker", "container", "dockerfile", "DevOps", "BestPractices"]
 categories: ["BestPractices", "docker", "devops"]
