@@ -30,15 +30,16 @@ languages:
         subtitle: "🌋 Work hard | 🎮 Play hard"
     menu:
       main:
-        - name: CV
-          url: cv
-          weight: 3
         - name: Posts
           url: posts
-          weight: 6
+          weight: 3
         - name: Search
           url: search
-          weight: 8
+          weight: 4
+        - name: CV
+          url: cv
+          weight: 5
+
   ru:
     languageName: "Russian 🇷🇺"
     weight: 1
@@ -56,15 +57,16 @@ languages:
         subtitle: "🌋 Work hard | 🎮 Play hard"
     menu:
       main:
-        - name: Резюме
-          url: cv
-          weight: 3
         - name: Посты
           url: posts
-          weight: 6
+          weight: 3
         - name: Поиск
           url: search
-          weight: 8
+          weight: 4
+        - name: Резюме
+          url: cv
+          weight: 5
+
 outputs:
   home:
     - HTML
