@@ -14,7 +14,7 @@ minify:
   minifyOutput: true
 languages:
   en:
-    languageName: "English 🇺🇸"
+    languageName: "Translate to english 🇺🇸"
     weight: 1
     taxonomies:
       category: categories
@@ -41,7 +41,7 @@ languages:
           weight: 5
 
   ru:
-    languageName: "Russian 🇷🇺"
+    languageName: "Перевести на русский 🇷🇺"
     weight: 1
     taxonomies:
       category: categories
