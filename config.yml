@@ -104,6 +104,8 @@ params:
       url: 'https://github.com/OldTyT'
     - name: gitlab
       url: 'https://gitlab.com/OldTyT'
+    - name: boosty
+      url: 'https://boosty.to/devboxops'
   editPost:
     URL: 'https://gitlab.com/OldTyT/oldtyt.xyz/blob/master/content'
     Text: Suggest Changes
