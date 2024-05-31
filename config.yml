@@ -95,8 +95,8 @@ params:
     imageUrl: '#'
     imageTitle: My avatar
     buttons:
-      - name: "Подписаться"
-        url: "https://t.me/oldi_na_meste"
+      - name: "Boosty"
+        url: "https://boosty.to/devboxops"
   socialIcons:
     - name: telegram
       url: 'https://arasaka_2077.t.me'
@@ -104,8 +104,6 @@ params:
       url: 'https://github.com/OldTyT'
     - name: gitlab
       url: 'https://gitlab.com/OldTyT'
-    - name: boosty
-      url: 'https://boosty.to/devboxops'
   editPost:
     URL: 'https://gitlab.com/OldTyT/oldtyt.xyz/blob/master/content'
     Text: Suggest Changes
