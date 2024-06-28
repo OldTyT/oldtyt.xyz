@@ -94,9 +94,9 @@ params:
     title: OldTyT
     imageUrl: '#'
     imageTitle: My avatar
-    buttons:
-      - name: "Boosty"
-        url: "https://boosty.to/devboxops"
+    # buttons:
+    #   - name: "Boosty"
+    #     url: "https://boosty.to/devboxops"
   socialIcons:
     - name: telegram
       url: 'https://arasaka_2077.t.me'
