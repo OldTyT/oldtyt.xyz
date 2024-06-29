@@ -27,7 +27,7 @@ languages:
         title: OldTyT
         imageUrl: 'https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png'
         imageTitle: OldTyT
-        subtitle: "🌋 Work hard | 🎮 Play hard"
+        subtitle: "DevOps engineer"
     menu:
       main:
         - name: Posts
@@ -54,7 +54,7 @@ languages:
         title: OldTyT
         imageUrl: 'https://gitlab.com/uploads/-/system/user/avatar/9780123/avatar.png'
         imageTitle: OldTyT
-        subtitle: "🌋 Work hard | 🎮 Play hard"
+        subtitle: "DevOps engineer"
     menu:
       main:
         - name: Посты
@@ -94,9 +94,9 @@ params:
     title: OldTyT
     imageUrl: '#'
     imageTitle: My avatar
-    # buttons:
-    #   - name: "Boosty"
-    #     url: "https://boosty.to/devboxops"
+    buttons:
+      - name: "Boosty"
+        url: "https://boosty.to/devboxops"
   socialIcons:
     - name: telegram
       url: 'https://arasaka_2077.t.me'
