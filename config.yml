@@ -30,12 +30,6 @@ languages:
         subtitle: "DevOps engineer"
     menu:
       main:
-        - name: Posts
-          url: posts
-          weight: 3
-        - name: Search
-          url: search
-          weight: 4
         - name: CV
           url: cv
           weight: 5
@@ -57,12 +51,6 @@ languages:
         subtitle: "DevOps engineer"
     menu:
       main:
-        - name: Посты
-          url: posts
-          weight: 3
-        - name: Поиск
-          url: search
-          weight: 4
         - name: Резюме
           url: cv
           weight: 5
@@ -104,6 +92,8 @@ params:
       url: 'https://github.com/OldTyT'
     - name: gitlab
       url: 'https://gitlab.com/OldTyT'
+    - name: linkedin
+      url: 'https://www.linkedin.com/in/oldtyt'
   editPost:
     URL: 'https://gitlab.com/OldTyT/oldtyt.xyz/blob/master/content'
     Text: Suggest Changes
