@@ -92,8 +92,8 @@ params:
       url: 'https://github.com/OldTyT'
     - name: gitlab
       url: 'https://gitlab.com/OldTyT'
-    - name: linkedin
-      url: 'https://www.linkedin.com/in/oldtyt'
+    # - name: linkedin
+    #   url: 'https://www.linkedin.com/in/oldtyt'
   editPost:
     URL: 'https://gitlab.com/OldTyT/oldtyt.xyz/blob/master/content'
     Text: Suggest Changes
